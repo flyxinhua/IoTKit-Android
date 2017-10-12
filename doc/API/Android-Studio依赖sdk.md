@@ -26,7 +26,8 @@ allprojects {
     repositories {
         jcenter()
         maven {
-            url 'https://dl.bintray.com/cylan/Iot'
+           // url 'https://dl.bintray.com/cylan/Iot'
+            url "http://yf.cylan.com.cn:82/artifactory/libs-snapshot-local"
         }
     }
 }
@@ -44,7 +45,8 @@ allprojects {
         }
     }
     //2.
-    compile 'com.cylan.iot.sdk:sdkLib:1.0.1'
+    //compile 'com.cylan.iot.sdk:sdkLib:1.0.1'
+    compile 'com.cylan.library:iotsdk:+'
 ```
 
 *   代码中使用
